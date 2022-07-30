@@ -83,6 +83,25 @@ background-color:#10101a ;
   margin:0 0 20px;
 
 }
+form .cv_btn{
+  background:#2fbf71;
+color:#fff;
+box-shadow: 4px 4px #fff;
+padding:0 25px;
+line-height: 42px;
+display: inline-block;
+border:1px solid transparent;
+font-size: 14px;
+font-weight: 400;
+letter-spacing: 2px;
+transition:ease all 0.35s;
+width:100%;
+}
+form .cv_btn:hover{
+  background: #fff;
+  color:#2fbf71;
+  box-shadow: 4px 4px #2fbf71;
+}
 .home-text h1{
   font-size: var(--big-font);
   color:#fff;
@@ -113,10 +132,14 @@ background-color:#10101a ;
 }
 
 
+#skills{
+background:linear-gradient(to bottom,#7DCE13,white);
+
+}
 .skills{
 display:flex;
 flex-wrap: wrap;
-background: #10101a;
+/* background: #10101a; */
 justify-content: space-between;
 flex-direction: row;
 text-align: center;
@@ -124,7 +147,7 @@ text-align: center;
 
 #skills h1{
   font-size: 3rem;
-  color:#fff;
+  color:black;
   text-align: center;
 
 }
@@ -136,7 +159,7 @@ text-align: center;
 }
 
 .skills-text h3{
-  color:#fff;
+  color:black;
   font-size: 30px;
   font-weight: 300px;
   letter-spacing: 6px;
@@ -144,13 +167,17 @@ text-align: center;
 }
 
 
-
+#about{
+  height: 100%;
+}
 .about{
   display: grid;
-  background: #10101a;
+   
+  background:linear-gradient(to bottom,#CED89E,white);
   grid-template-columns: repeat(2,2fr);
   grid-gap:5rem;
   align-items: center;
+  
 
 }
 .about-img img{
@@ -159,7 +186,7 @@ text-align: center;
   height: auto;
 }
 .about-text h3{
-  color:#fff;
+  color:#0b0b13;
   font-size: 30px;
   font-weight: 300px;
   letter-spacing: 6px;
@@ -169,26 +196,37 @@ text-align: center;
 }
 
 .about-text h2{
-  color:grey;
+  color:#0b0b13;
   max-width: 570px;
   font-size: var(--p-font);
   font-weight: 300;
   margin-bottom: 1.5rem;
   line-height: 1.8rem;
-  color: #fff;
 }
 
+.contact{
+  width: 100%;
+  background: linear-gradient(to bottom,#72FFFF,white);
 
+}
 .contact-form{
   display: flex;
-  background: #10101a;
   align-items: center;
   justify-content: center;
-  margin-top: 4.2rem;
+  margin-top: 3rem;
+  width: 100%;
+
 }
 .contact-form form{
   position: relative;
   width:  550px;
+}
+.contact h2{
+  color: #0b0b13;
+}
+.oo{
+  color:#0b0b13;
+  font-size: 40px;
 }
 form input, form textarea{
   width:100%;
@@ -211,7 +249,7 @@ textarea{
   height: 200px;
 }
 form .send-btn{
-  background:#2fbf71;
+  background:#00D7FF;
 color:#fff;
 box-shadow: 4px 4px #fff;
 padding:0 25px;
@@ -225,9 +263,9 @@ transition:ease all 0.35s;
 width:100%;
 }
 form .send-btn:hover{
-  background: #fff;
-  color:#2fbf71;
-  box-shadow: 4px 4px #2fbf71;
+  background: black;
+  color:#00D7FF;
+  box-shadow: 4px 4px #00D7FF;
 }
 .copyright{
   text-align:center;
@@ -240,9 +278,10 @@ form .send-btn:hover{
 
 }
 .oo{
-  color:#fff;
+  color:#0b0b13;
   font-size: 40px;
 }
+
 .box{
 text-align:center;
 justify-content: space-between;
