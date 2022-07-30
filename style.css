@@ -59,9 +59,8 @@ section{
 background-color:#10101a ;
 }
 .home{
-  /* position: relative; */
-  /* background-color: white; */
-  background-image: url(h.jpg);
+  background-image: url(homes.jpg);
+  opacity: 0.9; 
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -71,13 +70,9 @@ background-color:#10101a ;
   align-items: center;
 
 }
-.home-img img{
-  max-width: 100%;
-  width:600px;
-  height: auto;
-}
-.home-text h5{
-  color: #fff;
+.home-text h4{
+  color:#fff;
+  
   font-size:25px;
   font-weight:500;
   margin:0 0 20px;
@@ -85,7 +80,7 @@ background-color:#10101a ;
 }
 form .cv_btn{
   background:#2fbf71;
-color:#fff;
+  color:#fff;
 box-shadow: 4px 4px #fff;
 padding:0 25px;
 line-height: 42px;
@@ -98,7 +93,7 @@ transition:ease all 0.35s;
 width:100%;
 }
 form .cv_btn:hover{
-  background: #fff;
+  background:#fff;
   color:#2fbf71;
   box-shadow: 4px 4px #2fbf71;
 }
@@ -108,10 +103,10 @@ form .cv_btn:hover{
   font-weight: 700;
   line-height: 1;
   margin:0 0 20px;
-
 }
-.home-text h6{
-  color : #fff;
+
+.home-text h5{
+  color :#fff;
   font-size:18px;
   font-weight: 500px;
   margin-bottom: 25px;
@@ -119,7 +114,7 @@ form .cv_btn:hover{
 .home-text p{
   max-width: 470px;
   font-size: var(--p-font);
-  color:grey;
+  color:darkgrey;
   line-height: 2rem;
   margin-bottom:1.5rem;
 
@@ -133,7 +128,7 @@ form .cv_btn:hover{
 
 
 #skills{
-background:linear-gradient(to bottom,#7DCE13,white);
+background:linear-gradient(to bottom,#C9BBCF,white);
 
 }
 .skills{
@@ -156,6 +151,9 @@ text-align: center;
   width: 200px;
   height: 200px;
   margin: 50px 0px;
+}
+.skills-img img:hover{
+  transform : scale(1.08,1.08);
 }
 
 .skills-text h3{
@@ -289,4 +287,11 @@ justify-content: space-between;
 .icon{
   margin-right: 15px;
   color: #f9004d;
+}
+.h:hover{
+  cursor: pointer;
+  font-size: 90px;
+  color:#2fbf71;
+  transition:all 0.5s ;
+
 }
