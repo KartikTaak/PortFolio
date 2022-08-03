@@ -116,24 +116,6 @@ form .cv_btn:hover{
   margin-bottom:1.5rem;
 
 }
- .btn_cv{
-  background:#2fbf71;
-color:#fff;
-box-shadow: 4px 4px #fff;
-padding:0 25px;
-line-height: 42px;
-display: inline-block;
-border:1px solid transparent;
-font-size: 14px;
-font-weight: 400;
-letter-spacing: 2px;
-transition:ease all 0.35s;
-}
-.btn_cv:hover{
-  background: black;
-  color:#2fbf71;
-  box-shadow: 4px 4px #2fbf71;
-}
 :root{
 --big-font:5rem;
 --h2-font:1.9;
