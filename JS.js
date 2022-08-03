@@ -17,7 +17,7 @@ const sr=ScrollReveal({
 })
 
 sr.reveal('.home-text',{delay:200,origin:'top'})
-sr.reve('.about, .skills ,.contact,.oo,.home-text',{delay:200,origin:'top'})
+sr.reveal('.about, .skills ,.contact,.oo,.home-text',{delay:200,origin:'top'})
     
 
 
