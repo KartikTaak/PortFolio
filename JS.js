@@ -1,12 +1,23 @@
  const menu = document.querySelector('#menu-icon');
  const navbar= document.querySelector('.navbar');
-menu.addEventListener('click',()=>{
+menu.onclick=() =>{
   menu.classList.toggle('bx-x');
   navbar.classList.toggle('active');
-})
+}
 
-
-navbar.addEventListener('scroll',()=>{
+window.onscroll=()=>{
   menu.classList.remove('bx-x');
-  navbar.classList.remove('active');
+  navbar.classList.remove('active'); 
+}
+
+const sr=ScrollReveal({
+  distance:'60px',
+  duration:2500,
+  reset:true
 })
+
+sr.reveal('.home-text',{delay:200,origin:'top'})
+sr.reve('.about, .skills ,.contact,.oo,.home-text',{delay:200,origin:'top'})
+    
+
+
